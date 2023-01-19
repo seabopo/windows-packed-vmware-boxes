@@ -1,0 +1,6 @@
+images/box/*.box
+images/iso/*.iso
+images/vmx/*
+!images/vmx/configure packer scripts to generate images here
+packer_cache/*
+files/*
