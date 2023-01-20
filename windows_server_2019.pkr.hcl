@@ -27,7 +27,12 @@ variable "vm_name" {
 
 variable "cpus" {
   type    = string
-  default = "4"
+  default = "2"
+}
+
+variable "cores" {
+  type    = string
+  default = "1"
 }
 
 variable "memory" {
@@ -73,13 +78,14 @@ source "vmware-iso" "windows-server-2019" {
                                       "scripts/install-system-tools.bat"
                                     ]
 
-  version                         = "14"
+  version                         = "19"
   vm_name                         = "${var.vm_name}"
-  guest_os_type                   = "windows9srv-64"
+  guest_os_type                   = "windows2019srv-64"
   headless                        = "false"
   boot_wait                       = "2m"
 
   cpus                            = "${var.cpus}"
+  cores                           = "${var.cores}"
   memory                          = "${var.memory}"
 
   disk_adapter_type               = "lsisas1068"
