@@ -242,18 +242,16 @@
                     <Order>20</Order>
                     <Description>Show Desktop Icons</Description>
                 </SynchronousCommand>
-
                 <!-- WITHOUT WINDOWS UPDATES -->
-<!--
+                <!--
                 <SynchronousCommand wcm:action="add">
                     <CommandLine>cmd.exe /c C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -File a:\enable-winrm.ps1</CommandLine>
                     <Description>Enable WinRM</Description>
                     <Order>99</Order>
                 </SynchronousCommand>
--->
+                -->
                 <!-- END WITHOUT WINDOWS UPDATES -->
                 <!-- WITH WINDOWS UPDATES -->
-
                 <SynchronousCommand wcm:action="add">
                     <CommandLine>cmd.exe /c a:\enable-updates.bat</CommandLine>
                     <Order>98</Order>
@@ -271,9 +269,7 @@
                     <Order>100</Order>
                     <RequiresUserInput>true</RequiresUserInput>
                 </SynchronousCommand>
-
                 <!-- END WITH WINDOWS UPDATES -->
-
             </FirstLogonCommands>
             <OOBE>
                 <HideEULAPage>true</HideEULAPage>

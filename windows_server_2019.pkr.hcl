@@ -1,3 +1,6 @@
+#------------------------------------------------------------------------------
+# Change the VM Name for Each New Image Build: WS2019_[MMDD]
+#------------------------------------------------------------------------------
 
 variable "autounattend" {
   type    = string
@@ -22,7 +25,7 @@ variable "iso_url" {
 
 variable "vm_name" {
   type    = string
-  default = "WS2019"
+  default = "WS2019_1223"
 }
 
 variable "cpus" {

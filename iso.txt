@@ -1,0 +1,28 @@
+
+Windows 10 Enterprise Eval 22h2
+ - https://software-static.download.prss.microsoft.com/dbazure/988969d5-f34g-4e03-ac9d-1f9786c66750/19045.2006.220908-0225.22h2_release_svc_refresh_CLIENTENTERPRISEEVAL_OEMRET_x64FRE_en-us.iso
+ - sha256:EF7312733A9F5D7D51CFA04AC497671995674CA5E1058D5164D6028F0938D668
+
+Windows 10 Enterprise Eval 21h2
+ - https://software-download.microsoft.com/download/sg/444969d5-f34g-4e03-ac9d-1f9786c69161/19044.1288.211006-0501.21h2_release_svc_refresh_CLIENTENTERPRISEEVAL_OEMRET_x64FRE_en-us.iso
+ - sha256:69efac1df9ec8066341d8c9b62297ddece0e6b805533fdb6dd66bc8034fba27a
+
+Windows 10 Enterprise Eval LTSC 2021
+ - https://software-static.download.prss.microsoft.com/db/download/444969d5-f34g-4e03-ac9d-1f9786c69161/19044.1288.211006-0501.21h2_release_svc_refresh_CLIENT_LTSC_EVAL_x64FRE_en-us.iso
+ - sha256:E4AB2E3535BE5748252A8D5D57539A6E59BE8D6726345EE10E7AFD2CB89FEFB5
+
+MSDN Win10 business 22H2 Nov 2022
+ - images/iso/en-us_windows_10_business_editions_version_22h2_updated_nov_2022_x64_dvd_e8577df7.iso
+ - sha256:BA1C32F0BDA69022A4843F05C91B90DB8DCA6EC13123D1CF7C8160828128BD64
+
+ MSDN Win10 business 21H2 Nov 2022
+ - sha256:DEDB0432E7A5186498797200B43E02057D762B20A48B2E39BB476ED75572565A
+ - images/iso/en-us_windows_10_business_editions_version_21h2_updated_nov_2022_x64_dvd_645af6dc.iso
+
+ MSDN Win10 consumer 22H2 Nov 2022
+ - images/iso/en-us_windows_10_consumer_editions_version_22h2_updated_nov_2022_x64_dvd_7fd29387.iso
+ - sha256:6169B0C340FF47EC06410E7E575F8E76A2B0C4B844E07A2B49838BF7BDCB7F68
+
+MSDN Win10 consumer 21H2 Nov 2022
+ - images/iso/en-us_windows_10_consumer_editions_version_21h2_updated_nov_2022_x64_dvd_4456b6a1.iso
+ - sha256:4B48A6283090191CDCF70F2446C63FDEC3975EF2576F6396DAE9C12CCC1D19E8

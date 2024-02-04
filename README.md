@@ -98,4 +98,3 @@ If you want to use a licensed/activated image you'll need to download your own I
 =======================
 
 Run the `build_ws2019.ps1` or `build_w10.ps1` script to build the sys-prepped VMware Workstation Image and the Vagrant box file.
-
