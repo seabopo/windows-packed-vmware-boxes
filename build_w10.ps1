@@ -8,19 +8,24 @@ Set-Location -Path $PSScriptRoot
 
 Clear-Variable PKR_VAR_* -Scope Global
 
-$build = @{ local = $true; vsphere = $false }
+$build = @{ localvm = $false; localbox = $true; vsphere = $false }
 
-if ( $build.local ) {
+# packer init .\windows_10.pkr.hcl
 
-    packer build .\windows_10.pkr.hcl
+if ( $build.localvm ) {
+
+    packer build -only="vmware-iso.windows-10-vm" .\windows_10.pkr.hcl
 
 }
 
-if ( $vsphere.azure ) {
+if ( $build.localbox ) {
 
-    #$env:PKR_VAR_azure_build_virtual_network_resource_group_name    = 'chpeus2-network-admin-p'
-    #$env:PKR_VAR_azure_managed_image_resource_group_name            = 'vm-images-p'
+    packer build -only="vmware-iso.windows-10-box" .\windows_10.pkr.hcl
 
-    packer build -var-file="secret.pkrvars.hcl" -only="azure-arm.ubuntu-22-04-lts" .\main.pkr.hcl
+}
+
+if ( $build.vsphere ) {
+
+    packer build -var-file="windows_10_vsphere.pkrvars.hcl" -only="vsphere-iso.windows-10" .\windows_10.pkr.hcl
 
 }

@@ -3,5 +3,4 @@ images/iso/*.iso
 images/vmx/*
 !images/vmx/configure packer scripts to generate images here
 packer_cache/*
-files/*
 windows_10_vsphere.pkrvars.hcl
